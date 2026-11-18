@@ -109,7 +109,7 @@
 
 IssueFlow 以工单为核心，实现从问题提交、智能分类到处理完成的完整业务闭环。员工提交工单后，系统进行输入校验与重复编号检查，保存原始内容，并通过规则优先、LLM 辅助的混合分类机制自动识别问题类型。技术支持人员查看工单并核查分类及信息完整性，必要时人工修正分类或要求员工补充信息；随后处理实际问题，更新工单状态并记录处理结果。员工可随时查看自己的工单进度与处理结果，系统保留关键操作历史，确保处理过程可追溯。工单完成后进入只读状态，不允许再次修改或重新打开。基本流程如下：
 
-![mermaid-diagram (1)](<D:\Project\IssueFlow\mermaid-diagram (1).png>)
+![mermaid-diagram (1)](<.\mermaid-diagram (1).png>)
 
 该系统以工单为核心，这边仅支持工单三种状态，如下：
 
@@ -121,7 +121,7 @@ IssueFlow 以工单为核心，实现从问题提交、智能分类到处理完�
 
 其状态流转图：
 
-![mermaid-diagram (1)](<D:\Project\IssueFlow\mermaid-diagram (2).png>)
+![mermaid-diagram (1)](<.\mermaid-diagram (2).png>)
 
 ### 2. 智能分类机制
 
